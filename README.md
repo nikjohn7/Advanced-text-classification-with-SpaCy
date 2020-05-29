@@ -26,7 +26,7 @@ Data includes:
 
 
 ## Sense2vec
-Sence2vec word embeddings model works better than word2vec , since it utilises contextual information from words.
+Sense2vec word embeddings model works better than word2vec , since it utilises contextual information from words.
 
 The idea behind sense2vec is super simple. If the problem is that duck as in waterfowl and duck as in crouch are different concepts, the straight-forward solution is to just have two entries, duckN and duckV. Trask et al (2015) published a nice set of experiments showing that the idea worked well.
 
@@ -38,7 +38,7 @@ It assigns parts of speech tags like verb, noun , adjective to words, which will
 .
 
 
-Here I have made use of Reddit vectors dataset for training sence2vec model. This is a corpus of Reddit vectors from Reddit comments. (trained on all comments of 2015).
+Here I have made use of Reddit vectors dataset for training sense2vec model. This is a corpus of Reddit vectors from Reddit comments. (trained on all comments of 2015).
 
 Access the folder [here](https://www.kaggle.com/poonaml/reddit-vectors-for-sense2vec-spacy)
 
